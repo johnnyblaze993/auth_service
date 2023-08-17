@@ -13,8 +13,10 @@ public class HelloController {
 
     @Get("/") 
     public String index() {
-        return "Hello Dude!"; 
+        return "Hello Dude"; 
     }
 
 
 }
+
+//test

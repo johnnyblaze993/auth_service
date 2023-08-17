@@ -15,6 +15,9 @@ repositories {
 dependencies {
     annotationProcessor("io.micronaut.data:micronaut-data-processor")
     annotationProcessor("io.micronaut.serde:micronaut-serde-processor")
+    annotationProcessor("io.micronaut.validation:micronaut-validation-processor")
+    implementation("io.micronaut.validation:micronaut-validation")
+    implementation("jakarta.validation:jakarta.validation-api")
     implementation("io.micronaut:micronaut-http-client")
     implementation("io.micronaut.data:micronaut-data-hibernate-jpa")
     implementation("io.micronaut.serde:micronaut-serde-jackson")
